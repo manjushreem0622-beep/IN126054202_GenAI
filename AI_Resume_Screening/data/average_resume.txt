@@ -1,0 +1,4 @@
+Candidate knows Python, Pandas, and basic Machine Learning.
+Worked on student-level data analysis projects.
+Has 1 year of internship and academic project experience.
+Tools used include Jupyter Notebook and VS Code.

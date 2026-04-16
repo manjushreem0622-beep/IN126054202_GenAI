@@ -1,0 +1,17 @@
+We are hiring a Data Scientist.
+
+Required Skills:
+- Python
+- Machine Learning
+- Data Analysis
+- Pandas
+- NumPy
+- SQL
+
+Preferred:
+- Deep Learning
+- NLP
+- Model deployment experience
+
+Experience:
+- 2+ years in relevant projects or industry work

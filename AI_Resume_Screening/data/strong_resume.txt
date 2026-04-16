@@ -1,0 +1,4 @@
+Candidate has strong experience in Python, Machine Learning, Pandas, NumPy, SQL, and Deep Learning.
+Worked on NLP-based projects and deployed machine learning models.
+Has 3 years of project and internship experience.
+Tools used include Jupyter Notebook, VS Code, Git, and Docker.
