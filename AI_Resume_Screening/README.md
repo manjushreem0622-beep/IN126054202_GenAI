@@ -193,7 +193,7 @@ This project demonstrates how AI can assist recruiters by automating resume scre
 - Improve scoring with weighted skills
 - Integrate database for candidate storage
 
-  ---
+---
 
 ## 🔗 Author
 
