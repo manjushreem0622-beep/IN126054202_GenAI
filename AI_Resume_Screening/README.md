@@ -53,9 +53,9 @@ AI_Resume_Screening/
 │   └── explain_prompt.py
 │
 ├──.gitignore
+├──README.md
 ├── main.py
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
 
 ---
