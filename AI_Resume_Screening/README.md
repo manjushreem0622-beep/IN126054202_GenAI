@@ -188,6 +188,13 @@ This project demonstrates how AI can assist recruiters by automating resume scre
 
 ---
 
+## 📌 Future Improvements
+- Add real resume PDF parsing
+- Improve scoring with weighted skills
+- Integrate database for candidate storage
+
+  ---
+
 ## 🔗 Author
 
 **Manjushree M**
