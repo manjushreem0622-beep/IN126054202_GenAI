@@ -81,3 +81,129 @@ The system consists of two main pipelines:
 
 The system follows a structured workflow:
 
+Input → Processing → Decision → Output / HITL
+
+
+### 🧩 Nodes:
+- Processing Node  
+- Output Node  
+- HITL Node  
+
+### 📊 State includes:
+- Query  
+- Retrieved chunks  
+- Response  
+- Confidence score  
+
+---
+
+## 🔀 Conditional Routing Logic
+
+The system dynamically decides:
+
+- ✅ If relevant data found → Generate answer  
+- ⚠️ If confidence is low → Escalate  
+- ❗ If query is complex → Escalate  
+
+---
+
+## 👤 Human-in-the-Loop (HITL)
+
+When the system is uncertain:
+
+1. Query is forwarded to a human  
+2. Human provides response  
+3. Response is returned to user  
+
+👉 Ensures reliability and real-world usability  
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- LangChain  
+- LangGraph  
+- ChromaDB  
+- OpenAI / LLM APIs  
+- Google Colab  
+
+---
+
+## ⚡ Key Features
+
+- ✅ Context-aware responses  
+- ✅ Semantic search using embeddings  
+- ✅ Workflow-based decision making  
+- ✅ Human escalation support  
+- ✅ Modular and scalable design  
+
+---
+
+## 📊 Design Decisions
+
+| Component        | Choice            | Reason                              |
+|------------------|------------------|-------------------------------------|
+| Chunk Size       | ~500 tokens       | Balance between context & performance |
+| Embeddings       | Semantic vectors  | Better understanding of meaning      |
+| Retrieval        | Top-K search      | Relevant context selection           |
+| Workflow Engine  | LangGraph         | Structured control flow              |
+
+---
+
+## ⚠️ Challenges & Trade-offs
+
+- ⚖️ Accuracy vs Speed  
+- 📦 Chunk size vs Context quality  
+- 💰 Cost vs Performance  
+
+---
+
+## 🧪 Demo Queries
+
+Try these sample queries:
+
+- “Explain the main topic of the document”  
+- “What is RAG?”  
+- “Explain how the system works step by step”  
+- “What are the main components of the system?”  
+- “What are the advantages of this system?”  
+
+---
+
+## 📈 Future Enhancements
+
+- Multi-document support  
+- Memory-based conversation  
+- Feedback learning loop  
+- Web application deployment  
+
+---
+
+## 🎥 Demo
+
+👉 (https://drive.google.com/file/d/1dqXTNbDCo6JaS9q6vIhVyInnUjU__uzK/view?usp=sharing)
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how combining:
+
+- Retrieval  
+- Generation  
+- Workflow control  
+
+can create a **scalable, intelligent AI assistant** capable of real-world decision-making.
+
+---
+
+## 🙌 Acknowledgment
+
+Developed as part of **Innomatics Research Labs Internship Project**
+
+---
+
+## 🔖 Tags
+
+`#RAG` `#LangGraph` `#GenAI` `#ChromaDB` `#MachineLearning` `#AIProjects`
