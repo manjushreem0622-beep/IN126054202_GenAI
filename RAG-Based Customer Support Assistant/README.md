@@ -130,6 +130,18 @@ When the system is uncertain:
 
 ---
 
+## ⚙️ Setup Instructions
+
+1. Clone the repository  
+2. Install dependencies:
+
+pip install -r requirements.txt
+
+3. Open the notebook in Google Colab  
+4. Run all cells step-by-step
+
+---
+
 ## ⚡ Key Features
 
 - ✅ Context-aware responses  
